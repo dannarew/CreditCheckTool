@@ -1,0 +1,102 @@
+/* Main container */
+.main .block-container {
+    max-width: 1200px;
+    padding: 2rem;
+}
+
+/* Headers */
+h1, h2, h3 {
+    color: #1E88E5;
+    font-weight: 600;
+}
+
+/* Sidebar */
+.sidebar .sidebar-content {
+    background-color: #f8f9fa;
+    padding: 1rem;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #1E88E5;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #1565C0;
+}
+
+/* Select boxes */
+.stSelectbox>div>div {
+    background-color: white;
+    border-radius: 4px;
+}
+
+/* Charts */
+[data-testid="stPlotlyChart"] {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Expander */
+.streamlit-expanderHeader {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+}
+
+/* Info boxes */
+.stAlert {
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+/* Data tables */
+.dataframe {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.dataframe th, .dataframe td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.dataframe th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.dataframe tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* Markdown content */
+.markdown-text-container {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Download button */
+.download-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1rem 0;
+}
+
+.download-button:hover {
+    background-color: #45a049;
+} 
